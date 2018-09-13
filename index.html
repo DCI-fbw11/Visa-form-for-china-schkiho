@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Page 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <a class="nav1" href="index.html">Page 1</a>
+    <a class="nav2" href="page2.html">Page 2</a>
+    <a class="nav3" href="page3.html">Page 3</a>
+    <a class="nav4" href="page4.html">Page 4</a>
+    <a class="next" href="page2.html">Next</a>
+  </nav>
+  <header>
+    <hgroup>
+      <h1 id="headline">Visa form for Banana Republic</h1>
+      <h2>(For the holy Mountains)</h2>
+    </hgroup>
+    <br>
+    <p>The applicant should fill in this form truthfully, clearly and completely. 
+        Please type the answer in capital English letters in the space provided 
+        or tick (V) the relevant box to select. Other option: a yellow envelope with 500$ will be accepted as well.
+    </p>
+    <br>
+</header>
+<main class="main">
+  <form>
+    <fieldset class="field"> 
+    <legend id="1">Part 1: personal Information</legend>
+     <table> 
+      <table>
+      <tr>
+        <td rowspan="3">1.1 Full name as in Passport</td>
+        <td>
+          <label for="lname">Last name:</label> 
+          <input type="text" name="lname" placeholder="last name">
+        </td>
+        <td rowspan="5">please add a picture don't matter whats on it just add.</td>
+      </tr>
+      <tr>
+        <td>
+          <label for="mname">Middle name:</label> 
+          <input type="text" name="mname"  placeholder="middle name">
+         </td>
+        </tr>  
+        <td>
+          <label for="fname">First name:</label>
+          <input type="text" name="fname" placeholder="first name">
+         </td>
+      </tr>
+      <tr>  
+        <td>
+          <label for="nname">1.2 Nick name:</label>
+          <input type="text" name="nname" placeholder="nick name">
+        </td>
+        <td> 
+          <label for="oname">1.3 other name:</label>
+          <input type="text" name="oname" placeholder="other name">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="gender">1.4 Gender:</label>
+          <input type="radio" name="gender" >Male
+          <input type="radio" name="gender" >Female</td>
+        <td>
+          <label for="dob">1.5 DoB:</label>
+          <input type="date" name="dob"></td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cuna">1.6 Current nationality (ies)</label>
+          <input type="text" name="cuna" placeholder="current nationality">
+        </td>
+        <td colspan="2">
+          <label for="fona">1.7 former nationality (ies)</label>
+          <input type="text" name="fona" placeholder="former nationality">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="birthplace">1.8 Place of Birth (city,province,state,country)</label>
+          <input type="text" name="birthplace" placeholder="place of birth">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="id">1.9 Local-ID/Citizenship-number</label>
+          <input type="text" name="id" placeholder="id number">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="pass">1.10 Passport / Travel-Document-Type</label>
+        </td>
+        <td colspan="2">
+          <input type="checkbox" name="pass" value="diplomatic">Diplomatic
+                    <input type="checkbox" name="pass" value="f">Service of Official
+                    <br>
+                    <input type="checkbox" name="pass" value="ordinary">Ordinary
+                    <input type="checkbox" name="pass" value="other">Other (please specify)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="passnr">1.11 Passport-number</label>
+          <input type="text" name="passnr" placeholder="passnumber">
+        </td>
+        <td colspan="2">
+          <label for="date">1.12 Date of issue</label>
+          <input type="date" name="date">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="place">1.13 Place of issue</label>
+          <input type="text" name="place" placeholder="place of living">
+        </td>
+        <td colspan="2">
+          <label for="expire">1.14 Date of expiry</label>
+          <input type="date" name="expire">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="occupation">1.15 Current occupation(s)</label>
+        </td>
+        <td colspan="2">
+         <input type="checkbox" name="occupation" value="business">For Business
+         <input type="checkbox" name="occupation" value="holiday">For Holiday
+         <br>
+         <input type="checkbox" name="occupation" value="smuggle">For Smuggle
+         <input type="checkbox" name="occupation" value="robbery">For Robbery
+         <br>
+         <input type="checkbox" name="occupation" value="citizen">For Citizenship
+         <input type="checkbox" name="occupation" value="travel">Just Traveler 
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="school">1.16 Education</label>
+        </td>
+        <td colspan="2">
+           <input type="checkbox" name="school" value="postgraduate">Post graduated
+           <input type="checkbox" name="school" value="college">College
+           <br>
+           <input type="checkbox" name="school" value="tree-school">Tree-school
+           <input type="checkbox" name="school" value="life">School of Life
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <label for="work">1.17 Employer/School</label>
+        </td>
+        <td>
+          <input type="text" name="work" placeholder="employer name">Name
+        </td>
+        <td>
+          <input type="text" name="work" placeholder="phone number">Phone number
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="work" placeholder="adress">Adress
+        </td>
+        <td>
+          <input type="text" name="work" placeholder="zip code">  Zipcode
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="adress">1.18 Home adress</label>
+          <input type="text" name="adress" placeholder="adress">
+        </td>
+        <td>
+          <label for="zip">1.19 Zip Code</label>
+          <input type="text" name="zip" placeholder="zip-code">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="phone">1.20 Home/mobile phone number</label>
+          <input type="text" name="phone" placeholder="phone-number">
+        </td>
+        <td>
+          <label for="email">1.21 E-mail adress</label>
+          <input type="text" name="email" placeholder="email">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <label for="marital">1.22 Marital status</label>
+          <input type="chekbox" name="martial" value="married">Married
+          <input type="chekbox" name="martial" value="single">Single
+          <input type="chekbox" name="martial" value="other">Other (Please specify):  
+        </td>
+      </tr>
+      </table>
+      <table>
+      <tr>
+        <td rowspan="5">
+          <label for="family">1.23 Major family members (spouse,children,parents,etc)</label>
+        </td>
+        <td>
+          Name
+        </td>
+        <td>
+          Nationality
+        </td>
+        <td>
+          Occupation
+        </td>
+        <td>
+          Relationship
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" name="family"> 
+        </td>
+        <td>
+          <input type="text" name="family">
+        </td>
+        <td>
+          <input type="text" name="family">
+        </td>
+        <td>
+          <input type="text" name="family">
+        </td>
+      </tr>
+      <tr>
+          <td>
+            <input type="text" name="family"> 
+          </td>
+          <td>
+            <input type="text" name="family">
+          </td>
+          <td>
+            <input type="text" name="family">
+          </td>
+          <td>
+            <input type="text" name="family">
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <input type="text" name="family"> 
+            </td>
+            <td>
+              <input type="text" name="family">
+            </td>
+            <td>
+              <input type="text" name="family">
+            </td>
+            <td>
+              <input type="text" name="family">
+            </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="text" name="family"> 
+              </td>
+              <td>
+                <input type="text" name="family">
+              </td>
+              <td>
+                <input type="text" name="family">
+              </td>
+              <td>
+                <input type="text" name="family">
+              </td>
+            </tr>
+      </table>
+      <table class="table">
+        <tr>
+          <td rowspan="2">
+            <label for="emergency">1.24 Emergency Contact</label>
+          </td>
+          <td>
+            <input type="text" name="emergency" placeholder="name">Name
+          </td>
+          <td>
+            <input type="text" name="emergency"  placeholder="mobile number">Mobile phone number
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="text" name="emergency" placeholder="relationship">Relationship with the applicant
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="country">1.25 Country or territory where the applicant is located when applying for this visa</label>
+          </td>
+          <td>
+            <input type="text" name="country" placeholder="home-country">
+          </td>
+        </tr>
+      </table>
+     </table> 
+    </fieldset>
+  </form>
+      </main>
+      <aside class="aside">Legend
+        <br>
+        <ol>
+        <li> <a class="a1" href="#headline">Headline</a></li>
+        <li><a class="a2" href="#1">personal Informations</a></li>
+        <li> <a class="a3" href="page2.html#2.1">Travel Information</a></li>
+        <li> <a class="a4" href="page3.html#3.1">Other Information</a></li>
+        <li><a class="a5" href="page4.html#4">Declaration</a></li>
+        <li> <a class="a6" href="page4.html#5">another Person</a></li>
+        </ol>
+      </aside>
+      <footer>
+          <a class="next" href="page2.html">Next</a>
+          
+      </footer>  
+      </body>
+      </html>
